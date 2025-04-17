@@ -1,0 +1,41 @@
+# Dependências
+node_modules/
+.npm
+
+# Arquivos de construção
+dist/
+build/
+
+# Arquivos de logs
+logs/
+*.log
+npm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos temporários
+tmp/
+*.tmp
+
+# Arquivos de teste e cobertura
+coverage/
+
+# Arquivos de configuração específicos da Replit
+.replit
+replit.nix
+.cache/
